@@ -50,5 +50,12 @@ htmlcov/
 data/
 *.db
 
+# Audit results
+audit-results/
+
+# Test fixtures (PDFs, images)
+tests/fixtures/pdfs/
+tests/fixtures/images/
+
 # Misc
 *.log
