@@ -1,5 +1,6 @@
 # Gentle AI
-.atl/.skill-registry.cache.json
+.atl/
+.superpowers/
 
 # Node
 node_modules/
