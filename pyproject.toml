@@ -38,7 +38,7 @@ warn_return_any = true
 warn_unused_configs = true
 
 [[tool.mypy.overrides]]
-module = ["fitz", "openai", "pytesseract", "PIL", "PIL.*"]
+module = ["fitz", "openai", "pytesseract", "PIL", "PIL.*", "telegram", "telegram.*"]
 ignore_missing_imports = true
 
 [tool.pytest.ini_options]
