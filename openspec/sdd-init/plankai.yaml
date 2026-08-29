@@ -1,0 +1,42 @@
+project: plankai
+initialized_at: "2026-08-28"
+detected_stack:
+  languages: []
+  frameworks: []
+  package_managers: []
+  runtimes: []
+  note: "Greenfield — no source code detected yet"
+conventions:
+  branching: gitflow
+  branch_types:
+    - feature/*
+    - release/*
+    - bugfix/*
+    - hotfix/*
+  merge_strategy: squash_merge
+  min_approvals: 1
+  commit_style: conventional_commits
+  documentation_language: spanish
+architecture:
+  pattern: unknown
+  description: "Not yet established — project is in planning phase"
+testing:
+  framework: none
+  test_command: none
+  test_pattern: none
+  coverage_tool: none
+  can_watch: false
+strict_tdd:
+  supported: false
+  reason: "No test runner detected — greenfield project"
+project_description: "AI-powered system for generating furniture cutting lists (despieces) and optimizing wood panel usage"
+target_audience: "Professional woodworkers, furniture makers, and carpentry workshops"
+planned_capabilities:
+  - blueprint_analysis
+  - piece_decomposition
+  - material_calculation
+  - cutting_optimization
+input_support:
+  - images
+  - cad_dwg_dxf
+  - pdf
