@@ -17,4 +17,37 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+
+# Type checking
+.mypy_cache/
+
+# Environment variables
+.env
+
+# Data
+data/
+*.db
+
+# Misc
+*.log
