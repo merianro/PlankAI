@@ -1,0 +1,1 @@
+"""Storage adapter — data persistence."""
