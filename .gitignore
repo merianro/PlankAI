@@ -1,0 +1,19 @@
+# Gentle AI
+.atl/.skill-registry.cache.json
+
+# Node
+node_modules/
+
+# Go
+bin/
+pkg/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
